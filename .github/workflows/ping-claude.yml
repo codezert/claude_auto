@@ -2,7 +2,7 @@ name: Claude Ping
 
 on:
   schedule:
-    - cron: '0 0,4,9,14,19 * * *'
+    - cron: '0 0,2,4,6,9,11,14,16,19,21 * * *'
   workflow_dispatch:
 
 permissions:
